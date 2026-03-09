@@ -1,4 +1,4 @@
-package com.telusko.springEcom.model;
+package com.abhishek.ecommerce.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

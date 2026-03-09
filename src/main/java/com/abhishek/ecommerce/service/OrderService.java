@@ -1,18 +1,17 @@
-package com.telusko.springEcom.service;
+package com.abhishek.ecommerce.service;
 
-import com.telusko.springEcom.model.Order;
-import com.telusko.springEcom.model.OrderItem;
-import com.telusko.springEcom.model.Product;
-import com.telusko.springEcom.model.dto.OrderItemRequest;
-import com.telusko.springEcom.model.dto.OrderItemResponse;
-import com.telusko.springEcom.model.dto.OrderRequest;
-import com.telusko.springEcom.model.dto.OrderResponse;
-import com.telusko.springEcom.repo.OrderRepo;
-import com.telusko.springEcom.repo.ProductRepo;
+import com.abhishek.ecommerce.model.Order;
+import com.abhishek.ecommerce.model.OrderItem;
+import com.abhishek.ecommerce.model.Product;
+import com.abhishek.ecommerce.model.dto.OrderItemRequest;
+import com.abhishek.ecommerce.model.dto.OrderItemResponse;
+import com.abhishek.ecommerce.model.dto.OrderRequest;
+import com.abhishek.ecommerce.model.dto.OrderResponse;
+import com.abhishek.ecommerce.repo.OrderRepo;
+import com.abhishek.ecommerce.repo.ProductRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.swing.event.ListDataEvent;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.ArrayList;

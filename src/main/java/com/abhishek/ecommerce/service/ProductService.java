@@ -1,9 +1,8 @@
-package com.telusko.springEcom.service;
+package com.abhishek.ecommerce.service;
 
-import com.telusko.springEcom.model.Product;
-import com.telusko.springEcom.repo.ProductRepo;
+import com.abhishek.ecommerce.model.Product;
+import com.abhishek.ecommerce.repo.ProductRepo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 

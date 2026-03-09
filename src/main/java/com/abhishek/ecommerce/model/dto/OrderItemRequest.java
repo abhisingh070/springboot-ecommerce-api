@@ -1,4 +1,4 @@
-package com.telusko.springEcom.model.dto;
+package com.abhishek.ecommerce.model.dto;
 
 public record OrderItemRequest(
 

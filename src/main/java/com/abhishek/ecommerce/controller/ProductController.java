@@ -1,18 +1,15 @@
-package com.telusko.springEcom.controller;
+package com.abhishek.ecommerce.controller;
 
-import com.telusko.springEcom.model.Product;
-import com.telusko.springEcom.service.ProductService;
-import org.aspectj.apache.bcel.generic.RET;
+import com.abhishek.ecommerce.model.Product;
+import com.abhishek.ecommerce.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")

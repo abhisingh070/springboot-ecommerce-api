@@ -1,6 +1,6 @@
-package com.telusko.springEcom.repo;
+package com.abhishek.ecommerce.repo;
 
-import com.telusko.springEcom.model.Product;
+import com.abhishek.ecommerce.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
